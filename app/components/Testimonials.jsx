@@ -62,7 +62,7 @@ const Testimonials = () => {
                 className="w-20 h-20 rounded-full mb-4 object-cover"
               />
               <p className="text-gray-700 text-lg italic mb-4">
-                "{testimonial.feedback}"
+              &quot;{testimonial.feedback}&quot;
               </p>
               <h3 className="text-xl font-semibold text-purple-800">
                 {testimonial.name}
