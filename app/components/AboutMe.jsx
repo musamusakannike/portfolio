@@ -35,7 +35,7 @@ const AboutMe = () => {
             </p>
           </div>
           <a
-            href="#"
+            href="/resume.pdf" download={"/resume.pdf"}
             className="mt-5 py-3 px-4 rounded-full border text-purple-800 border-purple-800 hover:bg-purple-800 hover:text-white"
           >
             Download CV
